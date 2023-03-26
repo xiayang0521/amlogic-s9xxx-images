@@ -1,2 +1,2 @@
 # amlogic-s9xxx-centos
-Created centos images for s9xxx
+A collection of centos images for s9xxx
