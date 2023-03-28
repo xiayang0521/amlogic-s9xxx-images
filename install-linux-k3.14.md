@@ -1,4 +1,4 @@
-#0.按新版boot修改和分区重新布局
+1. 按新版boot修改和分区重新布局
 将新版镜像的boot文件覆盖过来除了（不覆盖uInitrd，zImage），修改对应启动项比如dtb等
 启动后，对分区重新布局
 ```
@@ -21,12 +21,13 @@ ID| name            |          offset|(   human)|            size|(   human)| ma
 ===================================================================================
 ```
 
-#1.晶晨分区下，挂载data分区
+2. 晶晨分区下，挂载data分区
 ```
 mount /dev/data /mnt
 ```
 把rootfs数据写进/dev/data
-#2. 进行分区操作
+
+3. 进行分区操作
 ```
 parted -s /dev/mmcblk0 mklabel msdos
 parted -s /dev/mmcblk0 mkpart  primary  fat32  132MiB  387MiB
