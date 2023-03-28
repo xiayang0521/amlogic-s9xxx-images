@@ -1,2 +1,2 @@
-# amlogic-s9xxx-centos
-A collection of centos images for s9xxx
+# amlogic-s9xxx-linux
+A collection of linux images for s9xxx
