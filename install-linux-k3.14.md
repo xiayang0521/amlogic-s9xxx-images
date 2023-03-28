@@ -1,5 +1,7 @@
 1. 按新版boot修改和分区重新布局
-将新版镜像的boot文件覆盖过来除了（不覆盖uInitrd，zImage），修改对应启动项比如dtb等
+将新版镜像的boot文件覆盖过来除了（不覆盖uInitrd，zImage），修改对应启动项比如dtb等,注意uInitrd要使用加过aml_nftl_dev驱动的修改版[uInitrd-aml_nftl_dev](https://github.com/xiayang0521/amlogic-s9xxx-images/releases/download/CentOS-7-aarch64-7.5.1804_k3.14.29/uInitrd-aml_nftl_dev)
+否则找不到/dev/data设备。
+
 启动后，对分区重新布局
 ```
 ampart /dev/mmcblk0  -m dclone boot::256M:1 data::-1:4
@@ -25,7 +27,7 @@ ID| name            |          offset|(   human)|            size|(   human)| ma
 ```
 mount /dev/data /mnt
 ```
-把rootfs数据写进/dev/data
+把rootfs数据写进/mnt/
 
 3. 进行分区操作
 ```
