@@ -1,29 +1,29 @@
 # 说明
 A collection of images for s9xxx
 
-# Armbian
+# 1.Armbian
 
 
-# CentOS
+# 2.CentOS
 
 
-# Archlinux
+# 3.Archlinux
 
 
-# Dietpi
+# 4.Dietpi
 
 
 
-# EmuELEC
+# 5.EmuELEC
 
 
-# CoreELEC
+# 6.CoreELEC
 
 
-# LibreELEC
+# 7.LibreELEC
 
 
-# Andriod
+# 8.Andriod
 
 
-# HybridELEC
+# 9.HybridELEC
