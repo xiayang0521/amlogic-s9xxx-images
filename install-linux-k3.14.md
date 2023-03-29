@@ -37,3 +37,27 @@ mkfs.vfat -F 32 -n "BOOT_EMMC"  /dev/mmcblk0p1
 mount /dev/mmcblk0p1 /mnt/boot
 ```
 同样，按新版镜像安装到emmc的时对boot相关文件处理办法，进行修改，即可完成。
+
+ssv6051驱动开机延时启动，以及分辨率问题
+将镜像中/boot/hdmi.sh复制到emmc的/root/下，修改以下内容：
+/etc/rc.local
+```
+#!/bin/bash
+#if [ -f /resize2fs_once ]; then /resize2fs_once ; fi
+bash /root/hdmi.sh $
+sleep 10
+modprobe -r 8189es &
+modprobe -r ssv6051 &
+modprobe -r mac80211 &
+modprobe -r cfg80211 &
+nohup bash /root/delay_start.sh &
+exit 0
+```
+
+/root/delay_start.sh
+```
+#!/bin/bash
+sleep 20
+lsmod &
+modprobe ssv6051 &
+```
