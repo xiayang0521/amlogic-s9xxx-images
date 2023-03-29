@@ -1,17 +1,13 @@
 # 说明
 A collection of images for s9xxx
 
-# 1.Armbian
+# 1.Armbian/ubuntu/debian/Dietpi
 
 
 # 2.CentOS
 
 
 # 3.Archlinux
-
-
-# 4.Dietpi
-
 
 
 # 5.EmuELEC
