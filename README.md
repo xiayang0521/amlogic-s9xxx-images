@@ -4,13 +4,26 @@ A collection of images for s9xxx
 # Armbian
 
 
-
-# Centos
-
+# CentOS
 
 
 # Archlinux
 
 
-
 # Dietpi
+
+
+
+# EmuELEC
+
+
+# CoreELEC
+
+
+# LibreELEC
+
+
+# Andriod
+
+
+# HybridELEC
