@@ -1,13 +1,16 @@
-# amlogic-s9xxx-images
+# 说明
 A collection of images for s9xxx
 
-# amlogic-s9xxx-armbian
+# Armbian
 
 
-# amlogic-s9xxx-centos
+
+# Centos
 
 
-# amlogic-s9xxx-archlinux
+
+# Archlinux
 
 
-# amlogic-s9xxx-dietpi
+
+# Dietpi
