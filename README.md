@@ -21,8 +21,8 @@ A collection of images for s9xxx
 # 6.HybridELEC
 
 # Thanks to 
-## 1. [150balbes](https://github.com/150balbes)
-## 2. [unifreq](https://github.com/unifreq)
-## 3. [ophub](https://github.com/ophub)
-## 4. [7ji](https://github.com/7ji)
-## 5. [yangxuan8282](https://github.com/yangxuan8282)
+#### 1. [150balbes](https://github.com/150balbes)
+#### 2. [unifreq](https://github.com/unifreq)
+#### 3. [ophub](https://github.com/ophub)
+#### 4. [7ji](https://github.com/7ji)
+#### 5. [yangxuan8282](https://github.com/yangxuan8282)
